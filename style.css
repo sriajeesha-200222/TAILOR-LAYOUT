@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-color: #649fda;
+    --secondary-color: #323232;
+}
+
+.header-main {
+    justify-items: center;
+}
+
+.header-content {
+    width: 90%;
+}
+
+.header-content h1 {
+    font-size: 2vw;
+}
+
+.header-content p {
+    padding-left: 2vw;
+    font-size: 0.8vw;
+}
+
+
+.hero-container {
+    background-color: var(--primary-color);
+
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.line {
+    width: 25vw;
+    height: 0.1vw;
+    background-color: white;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.image-content h1 {
+    margin-top: -10vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+}
+
+.image-content p {
+
+    width: 27vw;
+}
+
+.hero-content img {
+    height: 50vw;
+}
+
+.btn {
+    width: 18vw;
+    height: 2.9vw;
+    margin-top: 2vw;
+    /* word-spacing: 0.5vw; */
+    border: none;
+    padding: 0;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #649fda;
+
+}
+
+/* measure-main-section */
+.measure-main {
+    justify-items: center;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+
+}
+
+.measure-content {
+    width: 50%;
+    text-align: center;
+
+}
+
+.measure-content h1 {
+    font-size: 1.5vw;
+}
+
+.measure-content p {
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+}
+
+.measure-btn {
+    width: 16vw;
+    height: 2vw;
+    border-color: #649fda;
+    color: #649fda;
+    background: transparent;
+    font-weight: bold;
+}
+
+/* //icons-section */
+.icon-main {
+    background-color: var(--primary-color);
+    justify-items: center;
+    align-content: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.icon-content {
+    justify-content: space-evenly;
+    width: 90%;
+    display: flex;
+}
+
+.icon {
+    color: white;
+    justify-items: center;
+    align-content: center;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.icon i {
+    border: 0.2vw solid white;
+    border-radius: 100%;
+    height: 5vw;
+    width: 5vw;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+}
+
+
+
+.icon h4 {
+    color: white;
+    /* margin-top: 1vw; */
+    margin-top: 1vw;
+    width: 10vw;
+}
+
+.icon p {
+    width: 27vw;
+    text-align: center;
+    color: var(--white);
+}
+
+.icon .line {
+    justify-items: center;
+    align-content: center;
+    margin-top: 1vw;
+    background-color: white;
+    width: 5vw;
+    height: 0.1vw;
+}
+
+.down-arrow {
+    background-color: black;
+    justify-items: center;
+}
+
+.triangle {
+    justify-items: center;
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2vw solid var(--primary-color);
+}
+
+/* //visit us-section// */
+.visit-main {
+    justify-items: center;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    background-color: black;
+    color: white;
+}
+
+.visit-content {
+    text-align: center;
+}
+
+.visit-content h1 {
+    font-size: 1.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.visit-content p {
+    line-height: 1.6vw;
+}
+
+.visit-content p:nth-child(5) {
+    padding-bottom: 0.5vw;
+    padding-top: 2vw;
+}
+
+.triangle i {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+
+/* //images section// */
+.images-main {
+    justify-items: center;
+}
+
+.images-content {
+    text-align: center;
+    width: 90%;
+    padding-bottom: 1.5vw;
+}
+
+.images-content img {
+    width: 15vw;
+    height: 15vw;
+    padding-bottom: 0.3vw;
+    padding-right: 0.3vw;
+}
+
+.images-content h1 {
+    font-size: 2.2vw;
+    padding-bottom: 2.8vw;
+    padding-top: 1.5vw;
+}
+
+/* //indochino news// */
+.news-main {
+    justify-items: center;
+    background-color: black;
+}
+
+.news-content {
+    color: white;
+    justify-items: center;
+    text-align: center;
+    width: 90%;
+    padding-bottom: 3vw;
+}
+
+.news-content h1 {
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    padding-bottom: 4vw;
+}
+
+.news-content p {
+    font-size: 3vw;
+    width: 61%;
+    padding-bottom: 4vw;
+    font-style: italic;
+}
+
+.news-content h4 {
+    font-size: 1.6vw;
+    padding-bottom: 2vw;
+}
+
+/* //footer-section// */
+.footer-main {
+    justify-items: center;
+}
+
+.footer-content {
+    text-align: center;
+    line-height: 2vw;
+    padding-bottom: 3vw;
+    padding-top: 2vw;
+}
+
+.footer-content i {
+    width: 3vw;
+    font-size: 1.5vw;
+}
+
+.footer-content p:last-child {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
